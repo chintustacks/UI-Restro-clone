@@ -1,0 +1,97 @@
+.restaurant-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s;
+    height: 100%;
+    width: 300px;
+    margin: 16px 12px;
+  }
+  .restaurant-card:hover {
+    transform: scale(1.05);
+  }
+  .restaurant-image {
+    max-height: 260px;
+    width: 100%;
+    object-fit: inherit;
+  }
+  .restaurant-details {
+    padding: 10px;
+  }
+  .restaurant-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  .restaurant-description {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  .order-btn {
+    background-color: #f84f4f;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  .order-btn:hover {
+    background-color: #e43f3f;
+  }
+
+  .t-search-box {
+    width: 76px;
+    height: 40px;
+    border: none;
+    transition: 0.5s;
+    padding: 8px 4px;
+
+    &:focus-visible {
+        border: none;
+        outline: none;
+    }
+}
+
+  .t-inout-group-btn {
+    &:hover {
+        border: 1px solid var(--primary-100);
+        border-radius: 8px;
+        padding-left: 5px;
+
+        .t-search-box {
+            width: 260px;
+        }
+
+        .t-search-box:focus-visible {
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+.t-inout-group-btn {
+    &:hover {
+        border: 1px solid var(--primary-100);
+        border-radius: 8px;
+        padding-left: 5px;
+
+        .t-search-box {
+            width: 260px;
+        }
+
+        .t-search-box:focus-visible {
+            border: none;
+            outline: none;
+        }
+    }
+}
+
+.t-btn-icon {
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    border: var(--bs-btn-border-width) solid var(--bs-btn-border-color);
+    border-radius: var(--bs-btn-border-radius);
+    background-color: var(--bs-btn-bg);
+}
